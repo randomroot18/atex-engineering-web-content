@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -105,9 +104,10 @@ export default {
 			},
 			fontFamily: {
 				sans: [
+					'Inter',
+					'system-ui',
 					'-apple-system',
 					'BlinkMacSystemFont',
-					'San Francisco',
 					'Segoe UI',
 					'Roboto',
 					'Helvetica Neue',
