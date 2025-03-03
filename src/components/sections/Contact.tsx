@@ -5,9 +5,10 @@ import CustomButton from '../ui/CustomButton';
 import { cn } from '@/lib/utils';
 import { useToast } from '@/components/ui/use-toast';
 
-const ContactCard = ({ icon: Icon, title, content, className }) => {
+// Update the component props to include the style prop
+const ContactCard = ({ icon: Icon, title, content, className, style }) => {
   return (
-    <div className={cn("p-6 rounded-xl bg-white subtle-shadow flex items-start space-x-4", className)}>
+    <div className={cn("p-6 rounded-xl bg-white subtle-shadow flex items-start space-x-4", className)} style={style}>
       <div className="p-2 rounded-lg bg-atex-light flex-shrink-0">
         <Icon className="h-5 w-5 text-atex" />
       </div>
